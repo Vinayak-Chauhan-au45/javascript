@@ -1,0 +1,6 @@
+Create db--MongoDB use DATABASE_NAME is used to create database.The command will create a new database if it dosent exit,otherwise if it dosen't exit, otherwise it will return the existing database.
+Create Collection--To create collection in MongoDB use syntex createCollection() command.
+Create Documents-- For cresting documment in a collection using the syntex {[for creating one document insertOne()],[for creating mujltiple documents insertMany()]}
+Read Document-- To read any document use the syntex db.collection.find().
+Update Document--To update any document use syntex {[for single db.collection.updateOne()],[db.collection.updateMany()]}.
+Delete Document--To delete any document use syntex {[for single db.collection.deleteOne()],[db.collection.deleteMany()]}. 
